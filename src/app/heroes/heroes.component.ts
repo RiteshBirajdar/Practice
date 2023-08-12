@@ -9,7 +9,7 @@ import { HeroComponent } from './hero/hero.component';
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css'],
-  imports: [HeroComponent,CommonModule],
+  imports: [HeroComponent, CommonModule],
 })
 export class HeroesComponent implements OnInit {
   heroes: Hero[] = HEROES;
