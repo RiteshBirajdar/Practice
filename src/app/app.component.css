@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 99vw;
+  /* background-color: aquamarine; */
+  border: 1px solid red;
+}
+.heroes{
+  display: flex;
+  height: 30vh;
+  width: 100%;
+  /* background-color: red; */
+  border: 1px solid aqua;
+}
+.hero-detail{
+  display: flex;
+  height: 60vh;
+  width: 60%;
+  /* background-color: blueviolet; */
+  border: 1px solid blueviolet;
+}
